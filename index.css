@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.container{
+    display: flex;
+    width: auto;
+    height: 720px;
+    padding: 92px 0px 132px;
+}
+
+.one{
+    width: 504px;
+    height: 496px;
+    padding: 0px 24px 0px 0px;
+    margin: 0px 0px 0px 140px;
+}
+.logo{
+    width: 480px;
+    height: 58px;
+    padding: 8px 0px 16px;
+}
+.title{
+    width: 480px;
+    height: 48.24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: #333333;
+}
+.para{
+    width: 480px;
+    height: 36px;
+    color: #606770;
+    font-family: SFProText-Regular,Arial, Helvetica, sans-serif;
+    margin: 0px 0px 12px;
+    padding: 0px 0px 12px;
+}
+.two{
+    background-color: brown;
+    width: 396px;
+    height: 496px;
+}
+.three{
+    background-color: burlywood;
+}
+.four{
+    background-color: cadetblue;
+}
