@@ -16,7 +16,7 @@
     width: 504px;
     height: 496px;
     padding: 0px 24px 0px 0px;
-    margin: 0px 0px 0px 140px;
+    margin: 5px 0px 0px 140px;
 }
 .logo{
     width: 480px;
@@ -38,22 +38,28 @@
     margin: 0px 0px 12px;
     padding: 0px 0px 12px;
 }
+.box{
+    width: 160px;
+    height: 206px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition-duration: 0.3s;
+}
+.box:hover{
+    box-shadow:0px 0px 2px 4px rgba(0, 0, 0, 0.1) ;
+    width: 160.2px;
+    height: 206.2px;
+}
 .box_container{
     width: 160px;
     height: 160px;
-    background-color: #F5F6F7;
+    background-color: #F5F6F7; 
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    border-style: solid;
-    border-width: 0.1px;
-    border-color: rgba(0, 0, 0, 0.06);
-    border-bottom:none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-}
-
-.box_container:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 .btn_link{
@@ -67,16 +73,6 @@
     padding-top: 10px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    border-style: solid;
-    border-width: 0.1px;
-    border-color: rgba(0, 0, 0, 0.06);
-    border-top:none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06);
-    cursor: pointer;
-}
-
-.btn_link:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 .two{
